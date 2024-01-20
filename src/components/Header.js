@@ -10,7 +10,7 @@ const Header = forwardRef((props, ref) => {
 
   return (
     <div id="Header" className='header-section' ref={ref}>
-      <h1> Mid-FiLD : MIDI Dataset for Fine-Level Dynamics </h1>
+      <h1> MID-FiLD : MIDI Dataset for Fine-Level Dynamics </h1>
       <div className='nav'>
         <button onClick={() => scrollToSection("Intro")}>Intro</button>
         <button onClick={() => scrollToSection("Dataset")}>Dataset</button>

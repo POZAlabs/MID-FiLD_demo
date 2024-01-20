@@ -59,7 +59,7 @@ button:hover {
   margin-top: 50px;
 }
 .intro-text {
-  width: 50vw;
+  max-width: 50vw;
   display: flex;
   flex-direction: column;
 }
@@ -102,10 +102,6 @@ button:hover {
   margin-bottom: 30px;
 }
 
-
-
-
-
 .examples {
   width: 50vw;
   text-align: left;
@@ -116,7 +112,6 @@ button:hover {
   font-size: 1.4rem;
   margin-bottom: 40px;
 }
-
 
 .process {
   width: 50vw;
@@ -135,18 +130,127 @@ button:hover {
 
 
 
+
+
 /* RESULTS */
 .results-section {
   background-color: #fff;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+.results-section h1 {
+  font-size: 1.75rem;
+  margin-bottom: 40px;
+}
+.results-section p {
+  max-width: 60vw;
+  align-self: center;
+  padding-bottom: 20px;
+}
+.results-text {
+  width: 50vw;
+  text-align: left;
+}
+
+
+/* INSTRUMENT DISPLAY */
+.instrument-display {
+  max-width: 50vw; 
+  margin: auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.instrument-name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 40px; 
+}
+
+.instrument-content {
+  display: grid;
+  grid-template-columns: 0.7fr 2fr 0.7fr;
+  gap: 20px; 
+}
+
+.instrument-row {
+  display: contents;
+}
+
+.label {
+  text-align: center; 
+  display: grid;
+  align-content: center; 
+  font-weight: bold;
+}
+
+.image {
+  width: 100%; 
+  height: auto; 
+}
+
+.audio-player {
+  display: grid;
+  align-self: center;
+}
+
+/* SPECTROGRAMS */
+.spectrogram-container {
+  margin: auto;
+  max-width: 70vw;
+}
+
+.spectrogram-row {
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.instrument-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.spectrogram-set {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center; 
+  margin-bottom: 15px;
+}
+
+.spectrogram-set .label {
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  margin-top: -33px;
+}
+
+.spectrogram-row img {
+  width: 100%;
+  height: auto;
+  display: block; 
+}
+
+
+
+
+
+
+
 
 /* IMG */
 .instclass-image {
@@ -165,16 +269,15 @@ button:hover {
   padding-top: 20px;
 }
 .process-image{
-  width: 110%;
+  width: 120%;
+  margin-bottom: 80px;
 }
 
 
 
 
-/* TABLE */
-
-
-table {
+/*EXAMPLE TABLE */
+.music-table {
   width: 100%;
   border-collapse: collapse;
   margin: 25px 0;
@@ -184,37 +287,36 @@ table {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-thead tr {
+.music-table thead tr {
   background-color: #0a0c41;
   color: #ffffff;
   text-align: left;
 }
 
-th, td {
+.music-table th, td {
   padding: 12px 15px;
 }
 
-tbody tr {
+.music-table tbody tr {
   border-bottom: 1px solid #dddddd;
 }
 
-tbody tr:nth-of-type(even) {
+.music-table tbody tr:nth-of-type(even) {
   background-color: #f3f3f3;
 }
 
-tbody tr:last-of-type {
+.music-table tbody tr:last-of-type {
   border-bottom: 2px solid #0a0c41;
 }
 
-tbody tr.active-row {
+.music-table tbody tr.active-row {
   font-weight: bold;
   color: #0a0c41;
 }
 
-tbody tr td[colspan="5"] {
+.music-table tbody tr td[colspan="5"] {
   text-align: center;
 }
-
 
 
 

@@ -4,7 +4,7 @@ import instclass from '../assets/instclass.png';
 import moodclass from '../assets/moodclass.png';
 import trackcategory from '../assets/trackcategory.png';
 import process from '../assets/process.png';
-import MusicTable from './MusicTable';
+import MusicTable from './sub_components/MusicTable';
 
 const Dataset = () => {
     return (

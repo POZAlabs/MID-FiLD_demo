@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MID-FiLD",
+  "name": "MID-FiLD: MIDI Dataset for Fine-Level Dynamics",
   "icons": [
     {
       "src": "favicon.ico",
