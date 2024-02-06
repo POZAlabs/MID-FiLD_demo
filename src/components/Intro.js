@@ -1,9 +1,24 @@
 import React from 'react';
 import Supplemetary_video from '../assets/Supplemetary_video.mp4';
+import data from '../assets/data.png';
+import github from '../assets/github.png';
+import paper from '../assets/paper.png';
+
 
 const Intro = () => {
     return (
       <div id="Intro" className="intro-section">
+        <div className='link-container'>
+            <a href="https://www.google.com/" target="_blank">
+              <img src={github} alt="GitHub" className='github-icon' />
+            </a>
+            <a href="https://www.google.com/" target="_blank">
+               <img src={data} alt="Data" className='data-icon' />
+            </a>
+            <a href="https://www.google.com/" target="_blank">
+              <img src={paper} alt="Paper" className='paper-icon' />
+            </a>
+            </div>
           <div className='intro-video'>
             <video controls className='video'> <source src={Supplemetary_video} type="video/mp4" /> </video>
           </div>

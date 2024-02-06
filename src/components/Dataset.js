@@ -12,7 +12,7 @@ const Dataset = () => {
             <h1>Dataset</h1>
             <div className='metadata'>
                 <h2>Metadata</h2>
-                <div>
+                <div className='metadata-container'>
                     <img src={instclass} alt='instclass' className='instclass-image' />
                     <ul>
                         <li> <b>Instrument:</b> The instrument taxonomy adheres to Western musical norms, featuring 18 types from bowed string, woodwind, or brass categories. This selection highlights the dynamic range achievable through bowing and blowing techniques, transcending basic note-level control.</li>
@@ -34,7 +34,9 @@ const Dataset = () => {
 
             <div className='examples'>
                 <h2>Example of Dataset</h2>
-                <MusicTable />
+                <div>
+                    <MusicTable />
+                </div>
             </div>
 
             <div className='process'>

@@ -77,6 +77,26 @@ button:hover {
   margin-top:30px;
 }
 
+.link-container {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.data-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+}
+.github-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+}
+
+.paper-icon {
+  width: 50px;
+  height: 50px;
+}
 
 /* DATASET */
 .dataset-section {
@@ -97,7 +117,7 @@ button:hover {
   text-align: left;
   font-size: 1.1rem;
 }
-.metadata h2{
+.metadata h2 {
   font-size: 1.4rem;
   margin-bottom: 30px;
 }
@@ -128,7 +148,46 @@ button:hover {
   justify-content: center;
 }
 
+/* Images in Dataset */
+.dataset-section .image {
+  display: block;
+  margin: auto;
+}
+.dataset-section .instclass-image {
+  width: 37%;
+}
+.dataset-section .moodclass-image{
+  width: 37%;
+  padding-top:20px;
+}
+.dataset-section .trackcategory-image{
+  width: 75%;
+  padding-top: 20px;
+}
+.dataset-section .ccheatmap-image{
+  width: 90%;
+  padding-top: 20px;
+}
+.dataset-section .process-image{
+  width: 120%;
+  margin-bottom: 80px;
+}
 
+.metadata div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.examples div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.process div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 
@@ -161,7 +220,7 @@ button:hover {
 
 /* INSTRUMENT DISPLAY */
 .instrument-display {
-  max-width: 50vw; 
+  max-width: 70vw;
   margin: auto;
   border: 1px solid #ddd;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -177,101 +236,44 @@ button:hover {
 }
 
 .instrument-content {
-  display: grid;
-  grid-template-columns: 0.7fr 2fr 0.7fr;
-  gap: 20px; 
+  display: flex; 
+  justify-content: space-between;
 }
 
-.instrument-row {
-  display: contents;
+.column {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  flex: 1; 
+  padding: 10px; 
+  width: 48%;
+  box-sizing: border-box;
 }
 
 .label {
   text-align: center; 
-  display: grid;
-  align-content: center; 
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
-.image {
+.instrument-display .image {
+  width: 85%; 
+  height: auto; 
+  margin-bottom: 20px; 
+}
+
+.instrument-display .spectrogram {
   width: 100%; 
   height: auto; 
+  margin-bottom: 20px; 
+  margin-left: -50px;
 }
 
 .audio-player {
-  display: grid;
-  align-self: center;
+  width: 100%; 
+  max-width: 100%;
 }
 
-/* SPECTROGRAMS */
-.spectrogram-container {
-  margin: auto;
-  max-width: 70vw;
-}
-
-.spectrogram-row {
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 30px;
-  padding: 15px;
-}
-
-.instrument-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.spectrogram-set {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  align-items: center; 
-  margin-bottom: 15px;
-}
-
-.spectrogram-set .label {
-  text-align: center;
-  font-weight: bold;
-  display: flex;
-  align-items: center; 
-  justify-content: center; 
-  margin-top: -33px;
-}
-
-.spectrogram-row img {
-  width: 100%;
-  height: auto;
-  display: block; 
-}
-
-
-
-
-
-
-
-
-/* IMG */
-.instclass-image {
-  width: 37%;
-}
-.moodclass-image{
-  width: 37%;
-  padding-top:20px;
-}
-.trackcategory-image{
-  width: 75%;
-  padding-top: 20px;
-}
-.ccheatmap-image{
-  width: 90%;
-  padding-top: 20px;
-}
-.process-image{
-  width: 120%;
-  margin-bottom: 80px;
-}
 
 
 
@@ -321,8 +323,6 @@ button:hover {
 
 
 /* STICKY NAV */
-
-
 .sticky-nav {
   position: fixed;
   left: 10px;
@@ -349,4 +349,10 @@ button:hover {
   transition: color 0.1s ease; 
   transform: scale(1.03);
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .sticky-nav {
+    display: none; 
+  }
 }
