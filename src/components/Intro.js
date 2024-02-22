@@ -1,5 +1,5 @@
 import React from 'react';
-import Supplemetary_video from '../assets/Supplemetary_video.mp4';
+import presentation_video from '../assets/presentation_video.mp4';
 import data from '../assets/data.png';
 import paper from '../assets/paper.png';
 
@@ -16,7 +16,7 @@ const Intro = () => {
             </a>
             </div>
           <div className='intro-video'>
-            <video controls className='video'> <source src={Supplemetary_video} type="video/mp4" /> </video>
+            <video controls className='video'> <source src={presentation_video} type="video/mp4" /> </video>
           </div>
           <div>
             <div className="intro-text">
