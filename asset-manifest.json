@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MID-FiLD_demo/static/css/main.858ac97a.css",
-    "main.js": "/MID-FiLD_demo/static/js/main.c749b980.js",
-    "static/media/Supplemetary_video.mp4": "/MID-FiLD_demo/static/media/Supplemetary_video.37eadb02f8f07446cef2.mp4",
+    "main.js": "/MID-FiLD_demo/static/js/main.098ad1ae.js",
+    "static/media/presentation_video.mp4": "/MID-FiLD_demo/static/media/presentation_video.3b90b1b79efe0e094f65.mp4",
     "static/media/midfild_demo_0054.wav": "/MID-FiLD_demo/static/media/midfild_demo_0054.c435685d664930d7b299.wav",
     "static/media/midfild_demo_0071.wav": "/MID-FiLD_demo/static/media/midfild_demo_0071.74a30a46bad79a18b683.wav",
     "static/media/midfild_demo_0006.wav": "/MID-FiLD_demo/static/media/midfild_demo_0006.b296e85725000db9b82a.wav",
@@ -33,10 +33,10 @@
     "static/media/data.png": "/MID-FiLD_demo/static/media/data.4800af964947960e3781.png",
     "index.html": "/MID-FiLD_demo/index.html",
     "main.858ac97a.css.map": "/MID-FiLD_demo/static/css/main.858ac97a.css.map",
-    "main.c749b980.js.map": "/MID-FiLD_demo/static/js/main.c749b980.js.map"
+    "main.098ad1ae.js.map": "/MID-FiLD_demo/static/js/main.098ad1ae.js.map"
   },
   "entrypoints": [
     "static/css/main.858ac97a.css",
-    "static/js/main.c749b980.js"
+    "static/js/main.098ad1ae.js"
   ]
 }
