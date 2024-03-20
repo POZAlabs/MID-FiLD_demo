@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pozalabs.github.io/MID-FiLD_demo/sitemap.xml
