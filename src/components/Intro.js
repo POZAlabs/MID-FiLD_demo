@@ -8,10 +8,10 @@ const Intro = () => {
     return (
       <div id="Intro" className="intro-section">
         <div className='link-container'>
-            <a href="https://github.com/POZAlabs/MID-FiLD_code/raw/main/MID-FiLD_dataset.zip" target="_blank">
+            <a href="https://github.com/POZAlabs/MID-FiLD_code" target="_blank">
                <img src={data} alt="Data" className='data-icon' />
             </a>
-            <a href="https://assets.underline.io/lecture/93383/paper/a6614dcb845f42c4496a3dd4bfadecf9.pdf?Expires=1708661823&Signature=WK9-jjduyXkMO6i729epej7t0q82WaGmChbl-n8Fy3nv56QfJDrSv2ZqfykwY9R1dj60ufU46bgRSXGHscEHA1ylqrBw~hoksT2yCIrkVS7s5-Za3Toi495tlm7L-V7p4tD8z-NUgFAVfgTIjhOMsmPrpK4OJfPgxoh8tVuGUlIDqINyluiWjLAS2XhzHOjl85xXcMFRS1IP-zHAR5t7A6hTLxyx5lixGH4AKwvMxH97fUQDSAImUHQ3gSLxmdALUyjRXZ7CHhNJUzg7gvw-bhhJLzlt2oxuDv1PDCeyXN-mqzvdp85GfaXskQoxw6mrAyxazm5P3H~pd85N4PjkwQ__&Key-Pair-Id=K2CNXR0DE4O7J0" target="_blank">
+            <a href="https://ojs.aaai.org/index.php/AAAI/article/view/27774" target="_blank">
               <img src={paper} alt="Paper" className='paper-icon' />
             </a>
             </div>
